@@ -15,3 +15,10 @@
  - for the second one reused the intersection function two times to get the intersection of three strings
  - made a custom priority function, could've used ord from Data.Char, 
      but wanted to have as little dependencies as possible
+
+4th day
+  - made a relatively generic replace function, to tidy up the input, it might come in handy in the later days
+  - for the first subproblem i needed to check if the first range is fully contained in the other, or vice versa,
+     just by comparing the bounds the answer can easily be found
+  - for the second one, finding any intersection can be simplified by finding the complement function and inverting it,
+    as in if the range from the first one is completely outside the second and vice versa, also just by checking the bounds
