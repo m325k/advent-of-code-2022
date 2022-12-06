@@ -30,3 +30,7 @@
   - `pop` creates two lists, one with the popped elements and the other with the rest
   - the popped elements are then pushed onto another list
   - in the first subproblem the push happens after the recursion and in the second one before, that ensures the correct order of the "crates"
+
+6th day
+  - no need to complicate, just march through the string with a window of fixed size and check if it has duplicates
+  - duplicates function checks whether each element is contained in the tailing list after it
