@@ -60,3 +60,11 @@
   - for the second subproblem I kept the scores in a seperate matrix(could've put it in the Tree) and mutiplied
       and rotated them in each iteration, the score is calculated for every tree in every row and is equal to the 
       number of trees "seen" from that tree to the right
+ 
+ 9th day
+   - solution to this problem boils down to correctly simulating the individual movements
+   - the head of the rope moves according to the input direction
+   - every other knot(tail included) moves according to the knot in front of it
+   - we move the rope one step at a time, starting from the head down to the first knot that isn't moved
+   - the visited list holds the places the tail has visited, and after the simulation we have to find how
+      many distinct elements are in that list
